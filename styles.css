@@ -21,3 +21,16 @@ h1{
   figure img{
     width: 100%;
   }
+
+  a{
+    font-weight: bold;
+    color:pink;
+  }
+
+  ul li a {
+    text-decoration: none;
+  }
+
+  ul li a:hover{
+    text-decoration:wavy ;
+  }
