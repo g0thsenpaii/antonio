@@ -43,13 +43,23 @@
 
   }
 
-  figure.section-image{
+  figure.section-image.odd{
     float: right;
     margin-left: 20px;
     margin-bottom: 32px;
     max-width: 320px;
-    width: 400px;
-    height: 400px;
+    width: 40px;
+    height: 40px;
+
+  }
+
+  figure.section-image.even{
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 320px;
+    width: 40px;
+    height: 40px;
 
   }
 
