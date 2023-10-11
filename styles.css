@@ -1,4 +1,17 @@
-h1{
+
+  h1#site-title {
+    color: pink;
+    letter-spacing: -3px;
+    font-family: verdana; 
+    background: grey;
+    margin-top: 0;
+    margin-bottom: .125em;
+    text-align: center;
+  }
+
+  h1#article-title {
+    
+    font-size: 48px;
     color: pink;
     font-family: verdana; 
     background: grey;
