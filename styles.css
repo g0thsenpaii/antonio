@@ -22,7 +22,18 @@
     background: grey;
   }
   
+  figure{
+    margin: 0;
+    border: 1px solid black;
+    padding: 12px;
+    padding-bottom: 24px;
+  }
   
+  figure img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 12px;
+  }
 
   figure.main-image{
 
@@ -35,7 +46,7 @@
   
 
   figure.section-image.odd{
-    float: left;
+    float: right;
     margin-left: 20px;
     margin-bottom: 32px;
     max-width: 320px;
@@ -44,7 +55,7 @@
   }
 
   figure.section-image.even{
-    float: right;
+    float: left;
     margin-right: 20px;
     margin-bottom: 32px;
     max-width: 320px;
