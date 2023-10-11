@@ -25,7 +25,8 @@
   
 
   figure.main-image{
-    width: 600px;
+    max-width: 100%;
+    height: auto;
     border: 10px pink;
     padding: 6px;
     
