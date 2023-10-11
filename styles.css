@@ -37,10 +37,20 @@
 
   figure.main-image{
 
+    background: palevioletred;
+    border-color: pink;
+    color: aqua;
+
   }
 
   figure.section-image{
-    
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 32px;
+    max-width: 320px;
+    width: 400px;
+    height: 400px;
+
   }
 
   a{
