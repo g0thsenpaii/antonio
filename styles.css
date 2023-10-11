@@ -57,8 +57,7 @@
     margin-left: 20px;
     margin-bottom: 32px;
     max-width: 320px;
-    width: 40px;
-    height: 40px;
+    border-color: pink;
 
   }
 
@@ -67,8 +66,7 @@
     margin-right: 20px;
     margin-bottom: 32px;
     max-width: 320px;
-    width: 40px;
-    height: 40px;
+    border-color: pink;
 
   }
 
