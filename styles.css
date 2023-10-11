@@ -36,15 +36,7 @@
     color: aqua;
 
   }
-  figure.section-image{
-    float: right;
-    margin-right: 20px;
-    margin-bottom: 32px;
-    max-width: 320px;
-    width: 40px;
-    height: 40px;
-
-  }
+  
 
   figure.section-image.odd{
     float: left;
