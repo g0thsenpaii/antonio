@@ -1,1 +1,99 @@
+h1#site-title {
+    color: pink;
+    font-size: 100px;
+    letter-spacing: -3px;
+    font-family: verdana; 
+    background: grey;
+    margin-top: 0;
+    margin-bottom: .125em;
+    text-align: center;
+  }
 
+
+
+h1#article-title {
+    
+    font-size: 48px;
+    color: pink;
+    font-family: verdana; 
+    background: grey;
+  }
+
+p{
+    color: pink;
+    background: grey;
+  }
+
+
+  h1#section-title {
+    
+    font-size: 48px;
+    color: pink;
+    font-family: verdana; 
+    background: grey;
+  }
+
+
+
+
+p{
+    color: pink;
+    background: grey;
+  }
+
+ h1#Final-title {
+    
+    font-size: 48px;
+    color: pink;
+    font-family: verdana; 
+    background: grey;
+  }
+
+p{
+    color: pink;
+    background: grey;
+  }
+
+
+ul li a {
+    text-decoration: none;
+  }
+
+ 
+
+
+.img-container {
+  position: relative;
+  display: inline-block;
+}
+img {
+  width: 100;
+  max-width: 400px;
+}
+.img-attrib {
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  margin: 0 .5em .5em 0;
+  padding: .25em;
+  color: white;
+  background-color: rgba(0,0,0,.2)
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+p {
+  padding: 1em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: grey;
+  color: #fff;
+}
