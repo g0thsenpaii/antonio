@@ -9,6 +9,8 @@ h1#site-title {
     text-align: center;
   }
 
+ 
+
 
 
 h1#article-title {
@@ -66,9 +68,9 @@ ul li a {
   position: relative;
   display: inline-block;
 }
-img {
-  width: 100;
-  max-width: 400px;
+img{
+  width: 700px;
+  max-width: 10000px;
 }
 .img-attrib {
   position: absolute;
