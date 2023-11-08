@@ -21,6 +21,12 @@
     color: pink;
     background: grey;
   }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  
+  }
   
   figure{
     margin: 0;
@@ -44,11 +50,16 @@
 
   }
 
-  figure.section-image {
+  @media all and (min-width: 768px){
+    figure.section-image {
 
-    margin-bottom: 32px;
-    max-width: 320px;
+      margin-bottom: 32px;
+      max-width: 320px;
+    }
+
+
   }
+  
   
 
   figure.section-image.odd{
@@ -70,6 +81,15 @@
 
   ul li a {
     text-decoration: none;
+  }
+
+  @media all and (min-width: 376px){
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
   }
 
   ul li a:hover{
