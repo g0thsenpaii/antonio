@@ -18,6 +18,7 @@ h1#site-title {
 img{
   width: 700px;
   max-width: 10000px;
+  float: center;
 }
 
 h1#article-title {
